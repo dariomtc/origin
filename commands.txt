@@ -1,0 +1,23 @@
+1.       /
+2. mkdir lab1
+3. cd lab1
+    nano l1.txt
+4. Dario Matikj 143087
+5. git init
+    git commit -a -m "Initial commit"
+6. nano l1.txt
+    PET
+7. git commit -a -m "modify l1.txt"
+8.      /
+9. git remote add origin https://github.com/dariomtc/origin
+10. git push --all origin
+11.  git reset --hard b32dcf6
+12. git checkout -b logging
+    git push origin logging
+13. git log > log.txt
+14. git push origin logging
+15. git checkout master
+    git merge logging
+    git fetch --prune
+16. git checkout -b allcommands
+    git push origin allcommands 
